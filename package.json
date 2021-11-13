@@ -1,0 +1,16 @@
+{
+  "name": "bridge-bidding-adoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "asciidoctor --safe-mode=server --destination-dir=doc src/fn.adoc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "trueproof",
+  "license": "MIT",
+  "dependencies": {
+    "asciidoctor": "^2.2.5"
+  }
+}
