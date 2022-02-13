@@ -11,6 +11,7 @@
   "author": "trueproof",
   "license": "MIT",
   "dependencies": {
-    "asciidoctor": "^2.2.5"
+    "asciidoctor": "^2.2.5",
+    "commonmark": "^0.30.0"
   }
 }
